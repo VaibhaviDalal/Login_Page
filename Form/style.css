@@ -1,0 +1,81 @@
+body{
+    background-image: url("Images/abcd.jpg");  
+}
+
+.container{
+    position:absolute;
+    background-color:transparents;
+    height:550px;
+    width:410px;
+    border-radius:32px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 7px 7px 7px 6px rgba(227, 245, 245, 0.829);
+    padding:2%;
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    margin:5px 60px;
+    text-align: center;
+    background-color: rgb(98, 184, 224);
+    border-radius:20px;
+    padding:6px;
+    box-shadow: 2px 3px 3px rgb(201,219,219);
+}
+.mytext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:7px;
+    border-bottom: 1px solid rgb(27, 26, 27);
+    margin:19px 40px;
+    font-size:17px;
+    color: rgba(255, 255, 255, 0.822);
+}
+i{
+    color:rgb(10, 10, 10);
+    margin-right:10px;
+    
+}
+.myinfo{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+    padding:12px;
+    border:none;
+    margin-right:34px;
+    font-size:19px;
+
+}
+/*.myin{
+    text-align: center;
+    color: rgb(19, 1, 1);
+    padding:10px;
+    border: none;
+    margin-right:40px;    
+}*/
+.my{
+    font-size: 22px;
+    margin-right:10px;
+    text-align: center;
+    padding:5%;
+    color:white;
+}
+input{
+    border:0;
+    background-color:transparent ;
+    outline:none;
+}
+.def{
+    display: flex;
+    justify-content: center;
+    align-self: center;   
+}
+.abc{
+    border-radius: 13px;
+    background-color: rgb(98, 184, 224);
+    padding: 10px 12px;
+    font-size: 15px;
+    margin: 14px 15px;
+    box-shadow: 2px 3px 3px rgb(201, 219, 219);
+}
