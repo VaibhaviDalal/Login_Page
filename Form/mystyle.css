@@ -1,42 +1,47 @@
-body{
+body {
     margin: 0;
-    font-family:'Merriweather', serif;
-}
-.navbar{
-    background-color:#333;
-    overflow: hidden; 
-    height: 50px;   
+    font-family: 'Merriweather', serif;
 }
 
-.navbar a{
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    height: 50px;
+}
+
+.navbar a {
     margin-left: 14px;
     padding: 17px 16px;
     color: grey;
     text-align: center;
     font-size: 15px;
-    float : left;
+    float: left;
     text-decoration: none;
     /*margin:5px;*/
 }
+
 /* Change the color of links on hover */
-.navbar a:hover{
-    background-color:#4CAF50;
-    color:black;
-}
-/* Add a color to the active/current link */
-.navbar a.active{
-    color:rgb(132, 184, 243);
-    font-size: 13px;
-    padding:7px;
-}
-.navbar a.abc{
-    font-size:25px;
-    padding-top:8px;
+
+.navbar a:hover {
+    background-color: #4CAF50;
     color: white;
 }
- 
 
-.navbar .def span.abc{
+/* Add a color to the active/current link */
+
+.navbar a.active {
+    color: rgb(132, 184, 243);
+    font-size: 13px;
+    padding: 7px;
+}
+
+.navbar a.abc {
+    font-size: 25px;
+    padding-top: 8px;
+    color: white;
+}
+
+.navbar .def span.abc {
     background-color: #4CAF50;
     color: white;
     box-shadow: 2px 2px 2px rgb(22, 22, 22);
@@ -47,7 +52,6 @@ body{
     margin: 10px 10px;
     display: inline-flex;
     float: right;
-    margin-left:10px;
+    margin-left: 10px;
     padding-bottom: 4px;
 }
-
