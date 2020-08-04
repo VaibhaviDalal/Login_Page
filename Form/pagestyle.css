@@ -1,0 +1,151 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+  }
+.bg{
+    height: 100%; 
+    background-image: url("Images/g2.jpg");
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+.navbar {
+    background-color: rgba(19, 18, 18, 0.185);
+    overflow: hidden;
+    height:65px;
+    display: flex;
+    align-items: center;
+    border-bottom: rgba(7, 7, 7, 0.89);
+    /*padding:5px;*/
+}
+ /*FoodFunday*/
+.logo{
+    color:rgba(237, 241, 241, 0.966);
+    margin-left: 20px;
+}
+
+.navbar a:hover{
+    background-color: rgb(250, 179, 179);
+    color: black;
+}
+
+/*   Content  */
+.content{
+        
+        margin-left: auto;
+        height: 100%;  
+}
+
+.content a{
+    margin-left: 5px;
+    color: #dce4e6d5;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-right:20px;
+}
+
+/*-----view details---*/
+.table{
+    border-radius: 9px;
+    padding: 8px 8px;
+    display: inline-block;
+    border: none;
+    color: rgba(19, 18, 18, 0.938);
+    background-color: rgb(250, 116, 116);
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+/*-----Container starts---*/
+.container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+    margin-top: 150px;
+    margin-right: 150px;
+}
+.container .food{
+    color: rgb(248, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.container span.food{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgba(241, 247, 247, 0.986);
+
+}
+.container span.vd{
+    border-radius: 10px;
+    padding:10px;
+    display:inline-flex;
+    background-color: rgb(250, 116, 116);
+    border: 1px ;
+    margin-top: 35px;
+    font-size: 17px;
+    cursor: pointer;
+}
+/*-------icon-----*/
+i{
+    color: black;
+    text-align: center;
+    display: inline;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+/*----searchbar----*/
+.searchlogo{
+    display: inline;
+    margin-right: 14px;
+    justify-items: center;
+}
+/*  Felxbox*/
+
+.flex-container {
+    display: flex;
+    background-color: rgba(250, 116, 116, 0.185);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*height: 200px;
+    width:300px;*/
+    border-radius: 5px;
+    padding:15px;
+    margin: 50px 290px;
+    border: none;
+    box-shadow:2px 2px 2px rgb(39, 38, 38);
+
+  }
+
+  .flex-container > div {
+    background-color: #fcdede52;
+    margin: 10px;
+    padding-right:10px;
+    height: 110px;
+    width: 80px;
+    border-radius: 30px;
+    border: none;
+    flex:1;
+}
+.flex-container .specialities{
+    
+    padding:35px;
+    color: rgba(0, 0, 0, 0.918);
+    font-size: 25px;
+    
+}
